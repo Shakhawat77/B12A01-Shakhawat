@@ -22,7 +22,7 @@ nav{
 }
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 34px;
     color: #4E47FF;
     
 }
@@ -39,8 +39,9 @@ nav{
 
 /* style for banner */
 .banner-content{
-    display: flex;
-    text-align: center;  
+    margin-top: 150px;
+     text-align: center;
+     margin-bottom: 50px;
 }
 
 .massage{
@@ -49,6 +50,9 @@ nav{
 /* for full header */
 .header{
     background-image: url(Assets/Hero-bg.png);
+    height: 600px;
+   margin-top: 0%;
+
 }
 
 /* see it in action */
@@ -78,6 +82,7 @@ nav{
 /* Joined Thousands of Productive Users */
 .user{
     background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px; 
     margin: 140px;
     padding: 50px;
     text-align: center;
@@ -92,6 +97,7 @@ nav{
 .about-items{
     display: flex;
     justify-content:space-around;
+
     
 }
 
@@ -114,4 +120,147 @@ margin-bottom: 1px;
 .say-title{
     font-size: 42px;
     font-weight: bold;
+    text-align: center;
+    
+}
+.person-name{
+    color: #757575;
+    margin-bottom: 1px;
+
+    
+}
+.person-date{
+    color: #B3B3B3;
+    margin-top: 1px;
+
+}
+.person{
+   border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 17px;
+
+  
+}
+.say-container{
+    display: flex;
+      
+      justify-content: space-around;
+      margin: 0 151px;
+      gap: 30px;
+
+}
+.container{
+    box-shadow: 0px 7px 50px 0px rgba(179, 179, 179, 1);
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.container-title{
+    font-size: 30px;
+    margin-bottom:0% ;
+}
+.container-massage{
+    font-size: 25px;
+    padding-right: 30px;
+}
+.fname-date{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+ /* Ready to focus better */
+.ready{
+     background-color: #f3f1f1;
+     text-align: center;
+     border-radius: 20px;
+     margin: 151px;
+     height: 650px;
+     padding: 50px;
+ 
+}
+
+ .ready-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+ }
+
+ .ready-msg{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+ }
+ .ready-img{
+    border-radius: 48px;
+    margin-top: 20px;
+ }
+
+
+
+
+
+ /* set button in middle */
+ /* .text-center{
+    text-align: center;
+    margin-top: 100px;
+
+ } */
+
+
+/* Let’s Get in Touch */
+.info{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  padding: 50px 150px;
+  height: 700px;
+
+}
+
+
+ .info-head{
+    font-weight: bold;
+    font-size: 97px;
+    margin: 80px 0px;
+    width: 50%;
+ 
+
+ }
+
+ .info-form{
+    width: 50%;
+    height: 200px;
+
+ }
+ .butt{
+    margin-top: 10px;
+    width: 100%;
+ }
+
+    input[type="text"],input[type="email"] , textarea{
+    height: 70px;
+    width: 497px;
+    background-color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* border: none; */
+
+ }
+/* full page color */
+.color{
+    background-color: rgba(245, 248, 255, 1);
+
+}
+
+
+
+
+.footer{
+    
 }
