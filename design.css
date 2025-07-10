@@ -204,12 +204,7 @@ margin-bottom: 1px;
 
 
 
- /* set button in middle */
- /* .text-center{
-    text-align: center;
-    margin-top: 100px;
 
- } */
 
 
 /* Let’s Get in Touch */
@@ -249,7 +244,7 @@ margin-bottom: 1px;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 10px;
-    /* border: none; */
+    border: none;
 
  }
 /* full page color */
@@ -261,6 +256,25 @@ margin-bottom: 1px;
 
 
 
-.footer{
+.foot-head{
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+.foot-message{
+    color: rgba(137, 135, 161, 1);
+}
+.foot-item{
+    display: flex;
+   
+    justify-content: space-between;
     
+    color: rgba(137, 135, 161, 1);
+    padding: 10px 50px;
+}
+.footer{
+    text-align: center;
+    padding: 0px 490px;
+}
+.foot-foot{
+   margin-top: 0%;
 }
