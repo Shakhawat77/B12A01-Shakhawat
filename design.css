@@ -1,0 +1,117 @@
+/* inter font for logo text */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* railway font for other text */
+
+/* .raleway-font> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+    font-style: normal;
+} */
+
+/*nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #4E47FF;
+    
+}
+/* for common button */
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* style for banner */
+.banner-content{
+    display: flex;
+    text-align: center;  
+}
+
+.massage{
+    font-size: 50px;
+}
+/* for full header */
+.header{
+    background-image: url(Assets/Hero-bg.png);
+}
+
+/* see it in action */
+.see{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 140px;
+}
+.section-title{
+    font-size: 42px;
+
+}
+.section-msg{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.webflow{
+    border-radius: 45px;
+    height: 403px;
+    width: 328;
+
+}
+.para{
+    padding-right: 210px;
+}
+
+/* Joined Thousands of Productive Users */
+.user{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 140px;
+    padding: 50px;
+    text-align: center;
+}
+
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* for items */
+.about-items{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.item-title{
+color: rgba(78, 71, 255, 1);
+font-weight: bold;
+font-size: 80px;
+margin-bottom: 1px;
+
+}
+
+.item-des{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1px;
+    
+}
+
+/* What our users say */
+.say-title{
+    font-size: 42px;
+    font-weight: bold;
+}
