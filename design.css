@@ -35,8 +35,12 @@ nav{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    
 }
-
+ .btn:hover {
+      background-color: #364046;
+      transform: scale(1.05);
+    }
 /* style for banner */
 .banner-content{
     margin-top: 150px;
@@ -255,10 +259,10 @@ margin-bottom: 1px;
 
 
 
-
+/* for footer */
 .foot-head{
     font-size: 100px;
-    margin-bottom: 0%;
+    
 }
 .foot-message{
     color: rgba(137, 135, 161, 1);
@@ -274,6 +278,7 @@ margin-bottom: 1px;
 .footer{
     text-align: center;
     padding: 0px 490px;
+    height: 600px;
 }
 .foot-foot{
    margin-top: 0%;
