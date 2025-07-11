@@ -226,7 +226,7 @@ margin-bottom: 1px;
     font-weight: bold;
     font-size: 97px;
     margin: 80px 0px;
-    width: 50%;
+    width: 500px;
  
 
  }
@@ -238,7 +238,7 @@ margin-bottom: 1px;
  }
  .butt{
     margin-top: 10px;
-    width: 100%;
+    width: 540px;
  }
 
     input[type="text"],input[type="email"] , textarea{
