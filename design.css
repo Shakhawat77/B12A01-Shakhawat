@@ -243,6 +243,7 @@ margin-bottom: 1px;
 
     input[type="text"],input[type="email"] , textarea{
     height: 70px;
+    max-width: 497px;
     width: 497px;
     background-color: white;
     font-size: 16px;
@@ -278,8 +279,11 @@ margin-bottom: 1px;
 .footer{
     text-align: center;
     padding: 0px 490px;
-    height: 600px;
+    height: 428px;
 }
 .foot-foot{
-   margin-top: 0%;
+    
+}
+.footer-logo{
+    margin: 104px 0px 20px 0px;
 }
